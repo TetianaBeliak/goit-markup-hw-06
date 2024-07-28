@@ -13,8 +13,8 @@
      <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header-container container">
+    <header class="heade ">
+        <div class="header-container container hidden">
             <nav class="header-navigation">
                 <a class="header-logo" href="./index.html">Web<span class="header-logo-blue">Studio</span></a>
                 <ul class="header-menu-list">
@@ -46,12 +46,84 @@
                     <use href="./images/icons.svg#icon-burger"></use>
                 </svg>
             </button>
-
         </div>
+<div class="mobile-menu is-open hidden">
+    <div class="menu-container container">
+<button class="close-menu-button close-button"
+type="button">
+    <svg class="close-icon" width="8" height="8">
+        <use href="./images/icons.svg#icon-close"></use>
+    </svg>
+</button>
+<nav class="mobile-navigation">
+    <ul class="mobile-menu-list">
+        <li class="mobile-menu-item">
+            <a class="mobile-menu-link current " href="./index.html"> Studio</a>
+        </li>
+        <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="">Portfolio</a>
+        </li>
+        <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="">Contacts</a>
+        </li>
+    </ul>
+</nav>
+<address class="mobile-contacts">
+    <ul class="mobile-contacts">
+        <li>
+            <a class="mobile-contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li>
+            <a class="mobile-contacts-link current" href="tel:+110001111111">+11(000)111-11-11</a>
+        </li>
+    </ul>
+</address>
+<div class="mobile-icons">
+<ul class="mobile-icons-links">
+    <li class="mobile-icons-item icons-item">
+        <a class="icons-link" href="https://www.instagram.com/" target="_blank">
+            <svg class="mobile-social-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram">
+
+                </use>
+            </svg>
+        </a>
+    </li>
+    <li class="mobile-icons-item icons-item">
+        <a class="icons-link" href="https://www.twitter.com/" target="_blank">
+            <svg class="mobile-social-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter">
+
+                </use>
+            </svg></a>
+    </li>
+    <li class="mobile-icons-item icons-item">
+        <a class="icons-link" href="https://www.facebook.com/" target="_blank">
+            <svg class="mobile-social-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook">
+
+                </use>
+            </svg>
+        </a>
+    </li>
+    <li class="mobile-icons-item icons-item">
+        <a class="icons-link" href="https://www.linkedin.com/" target="_blank">
+            <svg class="mobile-social-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin">
+
+                </use>
+            </svg>
+        </a>
+    </li>
+</ul>
+</div>
+</div>
+</div>
+
     </header>
 <main>
     <!--Section №1-->
-<section class="main-section-button section hidden">    
+<section class="main-section-button section">    
     <div class="main-container container">
         <h1  class="title-main">Effective Solutions for Your Business</h1>
         <button class="button-main" type="button">Order Service</button>
