@@ -543,6 +543,7 @@ screen and (min-resolution: 192dpi) {
     padding-bottom: 96px;
     background: #f4f4fd;
 }
+
 .cards-container{
     padding-left: 28px;
     padding-right: 28px;
@@ -558,6 +559,7 @@ screen and (min-resolution: 192dpi) {
     margin-bottom: 72px;
     font-weight: 700;
 }
+
 .cards-list {
     display: flex;
     flex-wrap: wrap;
